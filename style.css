@@ -1,0 +1,192 @@
+*{
+    font-family: "Rimouski";
+}
+
+@font-face {
+    font-family: 'Rimouski';
+    src: url('font/rimouski_sb-webfont.woff2') format('woff2'),
+         url('font/rimouski_sb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+     display:block;
+    height: 50%;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+.wallpaper{
+    background-image: url("icons/background-image.jpg");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.container{
+    align-items: center;
+    width: 300px;    
+    background-color: #FFF;
+    display: block;
+    border-radius: 10px;
+    padding-bottom : 10px;
+    margin: 100px 0 0 100px;
+}
+
+.app-title{
+    background-color:#130101bb;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #e8e9f1f4;
+}
+
+.main-title {
+    margin: 100;
+}
+
+.date{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+.footer {
+    color: #ff0000;
+    /* border-radius: 10px; */
+    text-align: center;
+    display: block;
+    padding: 0.5em;
+    margin-top: 10px;
+    
+}
+
+.notification{
+    background-color: #e226366f;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #a1acd4;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    width: 270px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin:1px 5%;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    align-self: center;
+  
+  }
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .input-city {
+    text-align: center;
+    font-size: large;
+    margin-left:5%;
+    height: 30px;  
+    width: 262px;
+  }
+
+
+
