@@ -5,7 +5,6 @@ const desElement = document.querySelector(".temperature-description p");
 const locationElement = document.querySelector(".location p");
 const dateElement = document.querySelector(".date");
 const inputWeatherButton = document.querySelector("#input-button");
-
 const currentWeatherButton = document.querySelector("#current-button");
 const cityInput = document.querySelector("#city-input");
 
